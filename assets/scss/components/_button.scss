@@ -1,0 +1,25 @@
+.button {
+    font-family: $secondary-font;
+    font-weight: $bold-font;
+    font-size: $x-small-font;
+    padding: 0.5rem 0.75rem;
+    background-color: $white;
+    border-radius: 0;
+    border-color: $smoky-black;
+    border: 0.75px solid $smoky-black;    
+
+    @include respond-to($bp-md) {
+        padding: 0.75rem 2rem;
+        margin-bottom: 2.5rem;
+        font-size: $small-font;
+    }
+
+    &:hover {
+        border: 0.75px solid $quick-silver;
+    }
+    
+    &:focus {
+        border: 0.75px solid $quick-silver;
+        color: $quick-silver;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+//fuentes
+$primary-font: 'Old Standard TT', serif;
+$secondary-font: 'Raleway', sans-serif;
+
+$regular-font: 400;
+$bold-font: 700;
+
+$x-small-font: 0.75rem;
+$small-font: 0.875rem;
+$medium-font: 1rem;
+$large-font: 1.125rem;
+$x-large-font: 1.25rem;
+$xx-large-font: 1.7rem;
+$xxx-large-font: 3.125rem;
+
+//colores
+$white: #fff;
+$isabelline: #ececec;
+$light-gray: #d1d1d1;
+$smoky-black: #0c0910;
+$granite-gray: #646266;
+$quick-silver: #a6a5a8;
+
+//breakpoints
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
