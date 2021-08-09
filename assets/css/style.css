@@ -9950,7 +9950,7 @@ h3 {
 .contenedor .main {
   grid-row: 1/2;
   grid-column: span 2;
-  background-image: url("/assets/img/imagen1.png");
+  background-image: url("../img/imagen1.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
